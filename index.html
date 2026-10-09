@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TouchGrass AI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🌿 TouchGrass AI</h1>
+    <p>Less scrolling. More exploring.</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Reconnect with the real world.</h2>
+      <p>Get a little inspiration to step outside and enjoy nature.</p>
+      <a href="#planner" class="btn">Find my outdoor mission →</a>
+    </section>
+
+    <section id="planner" class="panel">
+      <h2>Your outdoor mission</h2>
+
+      <label for="duration">Available time</label>
+      <select id="duration">
+        <option value="15">15 minutes</option>
+        <option value="30">30 minutes</option>
+        <option value="60">60 minutes</option>
+      </select>
+
+      <label for="interest">Your interest</label>
+      <select id="interest">
+        <option value="nature walk">Nature walk</option>
+        <option value="gardening">Gardening</option>
+        <option value="birdwatching">Birdwatching</option>
+        <option value="outdoor games">Outdoor games</option>
+      </select>
+
+      <button id="generate">Generate my mission</button>
+
+      <article id="result" aria-live="polite">
+        <h3>Your next adventure awaits!</h3>
+        <p>Choose your preferences and generate a mission.</p>
+      </article>
+
+      <button id="complete">I completed my mission ✓</button>
+      <p id="progress">Missions completed: 0</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with open AI in mind. Made for life beyond the screen.</p>
+  </footer>
+</body>
+</html>

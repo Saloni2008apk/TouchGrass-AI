@@ -1,0 +1,183 @@
+```css
+/* TouchGrass AI - Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f8f0;
+  color: #203629;
+  line-height: 1.6;
+}
+
+header {
+  background: #174c35;
+  color: white;
+  text-align: center;
+  padding: 28px 16px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #d5ead9;
+}
+
+main {
+  width: min(900px, 92%);
+  margin: 30px auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 55px 22px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #d7efd2, #b5dfbd);
+  margin-bottom: 28px;
+}
+
+.hero h2 {
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  color: #174c35;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  margin-bottom: 25px;
+}
+
+.btn,
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  padding: 13px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn {
+  background: #174c35;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background: #247348;
+  color: white;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.btn:hover,
+button:hover {
+  background: #103b28;
+  transform: translateY(-2px);
+}
+
+button:focus-visible,
+a:focus-visible,
+select:focus-visible {
+  outline: 3px solid #e0a83e;
+  outline-offset: 3px;
+}
+
+.panel {
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px #183e2412;
+}
+
+.panel h2 {
+  color: #174c35;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 16px 0 7px;
+}
+
+select {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #cbd9cb;
+  border-radius: 9px;
+  background: #fbfdf9;
+  color: #203629;
+  font-size: 1rem;
+}
+
+#result {
+  background: #edf7eb;
+  border-left: 5px solid #3b8c55;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 24px;
+}
+
+#result h3 {
+  color: #174c35;
+  margin-bottom: 8px;
+}
+
+#result p {
+  margin-bottom: 8px;
+}
+
+#complete {
+  background: #dcefe0;
+  color: #174c35;
+}
+
+#complete:hover {
+  background: #c5e3cc;
+}
+
+#progress {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 18px;
+  color: #247348;
+}
+
+footer {
+  text-align: center;
+  padding: 25px 15px;
+  color: #536957;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero {
+    padding: 35px 18px;
+  }
+
+  .panel {
+    padding: 20px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+```
